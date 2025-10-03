@@ -1,3 +1,10 @@
+soong_namespace {
+    imports: [
+        "hardware/qcom/sm8650/audio/agm",
+        "hardware/qcom/sm8650/audio/pal",
+    ],
+}
+
 soong_config_module_type {
     name: "qtiaudio_gcov_default",
     module_type: "cc_defaults",
